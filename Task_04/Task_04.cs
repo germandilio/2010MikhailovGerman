@@ -19,8 +19,7 @@ namespace Task_04
             Console.WriteLine(I);
             Console.WriteLine("Мощность = ");
             Console.WriteLine(P);
-            /* nrfnfn4
-            */
+            
 
 
 
