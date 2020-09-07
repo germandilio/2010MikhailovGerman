@@ -6,11 +6,9 @@ namespace Task_04
     {
         static void Main(string[] args)
         {
-            string str1 = Console.ReadLine();
-            double U = Convert.ToDouble(str1);
+            double U = Convert.ToDouble(Console.ReadLine());
 
-            string str2 = Console.ReadLine();
-            double R = Convert.ToDouble(str2);
+            double R = Convert.ToDouble(Console.ReadLine());
 
             double I = U * R;
             double P = Math.Pow(U,2) / R;

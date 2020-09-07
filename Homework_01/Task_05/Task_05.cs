@@ -6,15 +6,13 @@ namespace Task_05
     {
         static void Main(string[] args)
         {
-            string str1 = Console.ReadLine();
-            double leg1 = Convert.ToDouble(str1);
+            double leg1 = Convert.ToDouble(Console.ReadLine());
 
-            string str2 = Console.ReadLine();
-            double leg2 = Convert.ToDouble(str2);
+            double leg2;
+            bool a = double.TryParse(Console.ReadLine(), out leg2));
             
             double hypotenuse = Math.Sqrt(Math.Pow(leg1, 2) + Math.Pow(leg2, 2));
-            Console.WriteLine("Гипотенуза = ");
-            Console.WriteLine(hypotenuse);
+            Console.WriteLine("Гипотенуза = " + hypotenuse);
         }
     }
 }
