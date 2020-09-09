@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "square", "square\square.csproj", "{2B13FBEE-8276-489E-960D-ED5065F8A5EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_03", "Task_03\Task_03.csproj", "{57339CD5-1AF0-4FEA-8CAC-C69A545C2C58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonachi", "Fibonachi\Fibonachi.csproj", "{596BF92C-4725-4F49-B5B0-846C59B8B843}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B13FBEE-8276-489E-960D-ED5065F8A5EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B13FBEE-8276-489E-960D-ED5065F8A5EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B13FBEE-8276-489E-960D-ED5065F8A5EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B13FBEE-8276-489E-960D-ED5065F8A5EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57339CD5-1AF0-4FEA-8CAC-C69A545C2C58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57339CD5-1AF0-4FEA-8CAC-C69A545C2C58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57339CD5-1AF0-4FEA-8CAC-C69A545C2C58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57339CD5-1AF0-4FEA-8CAC-C69A545C2C58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{596BF92C-4725-4F49-B5B0-846C59B8B843}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{596BF92C-4725-4F49-B5B0-846C59B8B843}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{596BF92C-4725-4F49-B5B0-846C59B8B843}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{596BF92C-4725-4F49-B5B0-846C59B8B843}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
