@@ -13,7 +13,7 @@ namespace square
         // метод вычисляет длину окружности 
         public static double L(double r)
         {
-            return Math.PI * 2* r;
+            return Math.PI * 2 * r;
 
         }
 
