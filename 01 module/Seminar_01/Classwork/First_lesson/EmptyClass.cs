@@ -1,4 +1,5 @@
 ﻿using System;
+// выводим различные форматы данных
 namespace First_lesson
 {
     class Task_04
