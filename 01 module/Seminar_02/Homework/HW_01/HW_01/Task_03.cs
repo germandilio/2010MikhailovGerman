@@ -17,7 +17,7 @@ namespace HW_01
     class Program
     {
         // метод печатает числа в порядке возрастания 
-        static  void Converter(double x, double y, double z)
+        static void Converter(double x, double y, double z)
         {
             double a1 = x, a2 = y, a3 = z;
             double middle, max, min;
