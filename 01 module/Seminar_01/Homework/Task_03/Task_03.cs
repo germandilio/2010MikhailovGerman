@@ -2,17 +2,17 @@
 
 namespace Task_03
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Введите число от 32 до 127");
-            string str = Console.ReadLine();
-            int Code;
-            // вывод символа по его коду ASCII
-            bool a = int.TryParse(str, out Code);
-            Console.WriteLine((char)Code);
-         
-        }
-    }
+	class Program
+	{
+		static void Main(string[] args)
+		{
+			Console.WriteLine("Введите число от 32 до 127");
+			string str = Console.ReadLine();
+			int Code;
+			// вывод символа по его коду ASCII
+			bool a = int.TryParse(str, out Code);
+			Console.WriteLine((char)Code);
+
+		}
+	}
 }

@@ -15,13 +15,13 @@ namespace Task_04
             double R = Convert.ToDouble(Console.ReadLine());
             // вычисление I и R
             double I = U * R;
-            double P = Math.Pow(U,2) / R;
+            double P = Math.Pow(U, 2) / R;
 
             Console.Write("Сила тока = ");
             Console.WriteLine(I);
             Console.Write("Мощность = ");
             Console.WriteLine(P);
-            
+
 
 
 
