@@ -1,4 +1,6 @@
 ﻿using System;
+// возможно конвертирование строки несколькими способами(TryParse, Parse, Convert)
+
 
 namespace Task_04
 {
