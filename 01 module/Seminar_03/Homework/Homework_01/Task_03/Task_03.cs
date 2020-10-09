@@ -6,12 +6,15 @@ namespace Task_03
     {
         public static bool System(double X, double Y)
         {
-            int R = 2; // по условию радиус круга
+            // по условию радиус круга.
+            int R = 2; 
             bool flag;
             double alpha;
             alpha = Math.Asin(Y/Math.Sqrt(X*X + Y*Y));
-            double max = Math.PI / 4; // max angle
-            double min = Math.PI / -2; // min angle
+            // max angle.
+            double max = Math.PI / 4;
+            // min angle.
+            double min = Math.PI / -2; 
             if (Math.Sqrt(X * X + Y * Y) <= R && (alpha <= max & alpha >= min))
             {
                 flag = true;
